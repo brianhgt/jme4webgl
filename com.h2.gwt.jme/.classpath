@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="com/google/gwt/corp/emul/|com/google/gwt/corp/emul-ext/|com/google/gwt/corp/emul-nocompile/" kind="src" path="src"/>
+   <classpathentry kind="src" path="src-plugins"/>
+	<classpathentry kind="src" path="src-gwt"/>
+	<classpathentry kind="src" path="src/com/google/gwt/corp/emul"/>
+   <classpathentry kind="src" path="src/com/google/gwt/corp/emul-ext"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/org/slf4j/slf4j/0.0.1-SNAPSHOT/com.h2.org.slf4j-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/com/allen_sauer/gwt/log/gwt-log-3.1.6.jar"/>
+	<classpathentry kind="lib" path="lib/com/googlecode/gwtgl/gwtgl/0.9.1/gwtgl-0.9.1-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

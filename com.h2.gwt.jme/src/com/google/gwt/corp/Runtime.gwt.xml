@@ -1,0 +1,10 @@
+<module rename-to="com_google_gwt_corp">
+
+  <source path="gwtquake" />
+  <source path="compatibility" />
+  <source path="gwtgl" />
+  
+  <super-source path='emul' />
+  <super-source path='emul-nocompile' />
+  <super-source path='emul-ext' />
+</module>

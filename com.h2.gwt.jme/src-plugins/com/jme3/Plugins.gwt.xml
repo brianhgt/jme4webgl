@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='com_jme3_plugins'>
+  
+  <replace-with class="com.jme3.asset.plugins.UrlLocator">
+     <when-type-is class="com.jme3.asset.plugins.UrlLocator"/>
+  </replace-with>
+  
+  <replace-with class="com.jme3.font.plugins.BitmapFontLoader">
+     <when-type-is class="com.jme3.font.plugins.BitmapFontLoader"/>
+  </replace-with>
+  
+  <replace-with class="com.jme3.material.plugins.J3MLoader">
+     <when-type-is class="com.jme3.material.plugins.J3MLoader"/>
+  </replace-with>
+  
+  <replace-with class="com.jme3.shader.plugins.GLSLLoader">
+     <when-type-is class="com.jme3.shader.plugins.GLSLLoader"/>
+  </replace-with>
+  
+  <replace-with class="com.jme3.texture.plugins.DDSLoader">
+     <when-type-is class="com.jme3.texture.plugins.DDSLoader"/>
+  </replace-with>
+  
+  <replace-with class="com.jme3.texture.plugins.DXTFlipper">
+     <when-type-is class="com.jme3.texture.plugins.DXTFlipper"/>
+  </replace-with>
+  
+  <replace-with class="com.jme3.texture.plugins.HDRLoader">
+     <when-type-is class="com.jme3.texture.plugins.HDRLoader"/>
+  </replace-with>
+  
+  <replace-with class="com.jme3.texture.plugins.PFMLoader">
+     <when-type-is class="com.jme3.texture.plugins.PFMLoader"/>
+  </replace-with>
+  
+</module>
